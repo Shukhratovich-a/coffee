@@ -5,14 +5,14 @@
     font-family: 'Fraunces';
     font-weight: 400;
     src: url('../fonts/Fraunces/fraunces-v10-latin-regular.woff2') format('woff2'),
-        url('../fonts/Fraunces/fraunces-v10-latin-regular.woff') format('woff');
+    url('../fonts/Fraunces/fraunces-v10-latin-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Fraunces';
     font-weight: 900;
     src: url('../fonts/Fraunces/fraunces-v10-latin-900.woff2') format('woff2'),
-        url('../fonts/Fraunces/fraunces-v10-latin-900.woff') format('woff');
+    url('../fonts/Fraunces/fraunces-v10-latin-900.woff') format('woff');
 }
 
 /* Barlow */
@@ -20,14 +20,14 @@
     font-family: 'Barlow';
     font-weight: 400;
     src: url('../fonts/barlow/barlow-v5-latin-regular.woff2') format('woff2'),
-        url('../fonts/barlow/barlow-v5-latin-regular.woff') format('woff');
+    url('../fonts/barlow/barlow-v5-latin-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Barlow';
     font-weight: 700;
     src: url('../fonts/barlow/barlow-v5-latin-700.woff2') format('woff2'),
-        url('../fonts/barlow/barlow-v5-latin-700.woff') format('woff');
+    url('../fonts/barlow/barlow-v5-latin-700.woff') format('woff');
 }
 
 
@@ -406,4 +406,45 @@ h1, h2, h3, h4, h5, h6 {
 
 .step__text {
     margin: 0;
+}
+
+/* FOOTER */
+.footer .container{
+    margin-bottom: 90px;
+}
+
+.footer-inner{
+    display: flex;
+    align-items: center;
+    padding: 47px 85px;
+    background: #2C343E;
+}
+
+.footer .logo-link{
+    margin-right: 100px;
+}
+
+.footer .nav{
+    margin-right: auto;
+}
+
+.footer .nav__link--active{
+    color: #FEFCF7;
+}
+
+.footer .nav__link:hover{
+    color: #FEFCF7;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+}
+
+.social + .social{
+    margin-left: 24px;
+}
+
+.social__image{
+    vertical-align: middle;
 }
