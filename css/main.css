@@ -111,8 +111,10 @@ ul {
 /* HERO */
 
 .hero .container {
-    width: 1280px;
     margin-bottom: 260px;
+}
+
+.hero__inner {
     padding: 115px 85px;
     background-image: url(../images/jpg/hero-picture.jpg);
     background-repeat: no-repeat;
@@ -143,7 +145,7 @@ ul {
 
 /* BUTTON */
 .button {
-    display: block;
+    display: inline-block;
     width: 217px;
     padding: 15px;
     font-family: "Fraunces", "Times new roman", sans-serif;
@@ -192,7 +194,7 @@ ul {
     color: #83888F;
 }
 
-.products__heading::after{
+.products__heading::after {
     content: "";
     position: absolute;
     top: -90px;
@@ -235,5 +237,88 @@ ul {
 }
 
 .product__text {
+    margin: 0;
+}
+
+/* DISCOVERY */
+
+.discovery .container {
+    position: relative;
+    margin-bottom: 200px;
+    padding-bottom: 150px;
+}
+
+.discover__inner {
+    padding-top: 100px;
+    padding-bottom: 315px;
+    background: #2C343E;
+    border-radius: 10px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.discovery__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: "Fraunces", "Times new roman", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.discovery__text {
+    width: 540px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.discovery__list {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+    display: flex;
+    column-gap: 30px;
+}
+
+.discovery__item {
+    width: 350px;
+    padding: 48px;
+    padding-top: 72px;
+    background: #0E8784;
+    border-radius: 8px;
+}
+
+.discovery__item::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    background-image: url(../images/svg/discovery-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.discovery__item:nth-child(2)::before{
+    background-image: url(../images/svg/discovery-2.svg);
+}
+
+.discovery__item:nth-child(3)::before{
+    background-image: url(../images/svg/discovery-3.svg);
+}
+
+.discovery__item__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: "Fraunces", "Times new roman", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.discovery__item__text{
     margin: 0;
 }
