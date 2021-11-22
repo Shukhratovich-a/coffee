@@ -5,14 +5,14 @@
     font-family: 'Fraunces';
     font-weight: 400;
     src: url('../fonts/Fraunces/fraunces-v10-latin-regular.woff2') format('woff2'),
-    url('../fonts/Fraunces/fraunces-v10-latin-regular.woff') format('woff');
+        url('../fonts/Fraunces/fraunces-v10-latin-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Fraunces';
     font-weight: 900;
     src: url('../fonts/Fraunces/fraunces-v10-latin-900.woff2') format('woff2'),
-    url('../fonts/Fraunces/fraunces-v10-latin-900.woff') format('woff');
+        url('../fonts/Fraunces/fraunces-v10-latin-900.woff') format('woff');
 }
 
 /* Barlow */
@@ -20,14 +20,14 @@
     font-family: 'Barlow';
     font-weight: 400;
     src: url('../fonts/barlow/barlow-v5-latin-regular.woff2') format('woff2'),
-    url('../fonts/barlow/barlow-v5-latin-regular.woff') format('woff');
+        url('../fonts/barlow/barlow-v5-latin-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Barlow';
     font-weight: 700;
     src: url('../fonts/barlow/barlow-v5-latin-700.woff2') format('woff2'),
-    url('../fonts/barlow/barlow-v5-latin-700.woff') format('woff');
+        url('../fonts/barlow/barlow-v5-latin-700.woff') format('woff');
 }
 
 
@@ -37,7 +37,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     height: 100%;
 }
 
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* MAIN */
-main{
+main {
     flex-grow: 1;
 }
 
@@ -336,13 +336,13 @@ main{
 
 /* STEPS */
 
-.steps .container{
+.steps .container {
     margin-bottom: 200px;
 }
 
 .steps__heading {
     margin: 0;
-    margin-bottom:95px;
+    margin-bottom: 95px;
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
@@ -420,66 +420,93 @@ main{
     margin: 0;
 }
 
+/* ABOUT-US */
+.about-us{
+    margin-bottom: 170px;
+}
+
+.about-us__inner {
+    padding: 137px 85px;
+    background-image: url(../images/jpg/about-bg-image.jpg);
+    background-position: left 0 bottom -200px;
+    border-radius: 10px;
+}
+
+.about-us__heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.about-us__text {
+    width: 445px;
+    margin: 0;
+    color: #FEFCF7;
+}
+
 /* FOOTER */
-.footer .container{
+.footer .container {
     margin-bottom: 90px;
 }
 
-.footer-inner{
+.footer-inner {
     display: flex;
     align-items: center;
     padding: 47px 85px;
     background: #2C343E;
 }
 
-.footer .logo-link{
+.footer .logo-link {
     margin-right: 100px;
 }
 
-.footer .nav{
+.footer .nav {
     margin-right: auto;
 }
 
-.footer .nav__link--active{
+.footer .nav__link--active {
     color: #FEFCF7;
 }
 
-.footer .nav__link:hover{
+.footer .nav__link:hover {
     color: #FEFCF7;
 }
 
-.socials{
+.socials {
     display: flex;
     align-items: center;
 }
 
-.social{
+.social {
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.social + .social{
+.social+.social {
     margin-left: 24px;
 }
 
-.social__image{
+.social__image {
     display: block;
     transition: opacity 0.25s ease;
 }
 
-.social:hover .social__image{
+.social:hover .social__image {
     opacity: 0;
 }
 
-.social:nth-child(1){
+.social:nth-child(1) {
     background-image: url(../images/svg/socials/facebook.svg);
 }
 
-.social:nth-child(2){
+.social:nth-child(2) {
     background-image: url(../images/svg/socials/twitter.svg);
     background-size: 24px 20px;
 }
 
-.social:nth-child(3){
+.social:nth-child(3) {
     background-image: url(../images/svg/socials/instagram.svg);
 }
