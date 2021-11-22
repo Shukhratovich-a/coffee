@@ -5,14 +5,14 @@
     font-family: 'Fraunces';
     font-weight: 400;
     src: url('../fonts/Fraunces/fraunces-v10-latin-regular.woff2') format('woff2'),
-        url('../fonts/Fraunces/fraunces-v10-latin-regular.woff') format('woff');
+    url('../fonts/Fraunces/fraunces-v10-latin-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Fraunces';
     font-weight: 900;
     src: url('../fonts/Fraunces/fraunces-v10-latin-900.woff2') format('woff2'),
-        url('../fonts/Fraunces/fraunces-v10-latin-900.woff') format('woff');
+    url('../fonts/Fraunces/fraunces-v10-latin-900.woff') format('woff');
 }
 
 /* Barlow */
@@ -20,14 +20,14 @@
     font-family: 'Barlow';
     font-weight: 400;
     src: url('../fonts/barlow/barlow-v5-latin-regular.woff2') format('woff2'),
-        url('../fonts/barlow/barlow-v5-latin-regular.woff') format('woff');
+    url('../fonts/barlow/barlow-v5-latin-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Barlow';
     font-weight: 700;
     src: url('../fonts/barlow/barlow-v5-latin-700.woff2') format('woff2'),
-        url('../fonts/barlow/barlow-v5-latin-700.woff') format('woff');
+    url('../fonts/barlow/barlow-v5-latin-700.woff') format('woff');
 }
 
 
@@ -471,6 +471,7 @@ main {
 
 .commitment__text {
     margin: 0;
+    opacity: 0.8;
 }
 
 .commitment__heading {
@@ -479,6 +480,52 @@ main {
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
+}
+
+/* QUALITY */
+.quality .container{
+    position: relative;
+    margin-bottom: 170px;
+    padding-top: 88px;
+}
+
+.quality__inner {
+    padding: 88px 85px;
+    padding-bottom: 175px;
+    background: #2C343E;
+    border-radius: 10px;
+}
+
+.quality__info{
+    width: 540px;
+}
+
+.quality__inner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 105px;
+    display: inline-block;
+    width: 445px;
+    height: 475px;
+    background-image: url(../images/jpg/quality.jpg);
+    background-position: center top -50px;
+    border-radius: 8px;
+}
+
+.quality__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality__text {
+    margin: 0;
+    color: #FEFCF7;
+    opacity: 0.8;
 }
 
 /* FOOTER */
